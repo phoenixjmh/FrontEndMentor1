@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+
+
+:root {
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family:'Fraunces',serif;
+    box-sizing: border-box;
+    background-color: var(--dark-grayish-blue);
+    font-size:16pt;
+    align-items:center;
+    justify-content: center;
+    height:(100vh - 1px);
+    color:var(--very-dark-blue);
+    margin:4rem;
+    
+}
+.container{
+    background-color:var(--white);
+    display:flex;
+    flex-direction: row;
+    
+    
+    border-radius: .4rem;
+    padding-right:1.25rem;
+    overflow:hidden;
+
+    
+
+}
+.textpanel{
+    padding:1.25rem;
+    align-items: center;
+}
+h2{
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+
+}
+p{
+    font-size: .9rem;
+}
+
+img{
+    object-fit:cover;
+    max-width: 50%;
+    max-height:100%;
+    
+}
+.pricing{
+    padding:0;
+    box-sizing: border-box;
+    border: 2px solid;
+    flex-direction: row;
+}
+.pricing h1{
+    border:2px solid;
+    font-size: 1rem;
+    padding:0;
+    margin:0;
+}
+.pricing p{
+margin:0;
+    border:2px solid;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     
+     } 
+
+     @media(min-width:500px)
+     {
+        .container{
+            width:500px;
+        }
+     }
+
+     
